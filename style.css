@@ -1,9 +1,10 @@
 body {
-  font-family: 'Grandstander', cursive;
-  background-color: #fdfaf6;
+  font-family: "Underdog", system-ui;
+  background-color: #3a5a40;    
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
   padding: 0;
-  color: #3b3b3b;
 }
 
 .favorite-comic {
@@ -25,7 +26,7 @@ body {
 
 
 nav {
-  background-color: #7a3b3b; /* muted maroon */
+  background-color: #0a0b0b; /* muted maroon */
   padding: 1em;
   text-align: center;
 }
@@ -53,14 +54,13 @@ main {
 .comic-container {
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  gap: 0em;
   align-items: center;
 }
 
 .comic-page {
   width: 100%;
   max-width: 700px;
-  border: 3px solid #7a3b3b;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 6px;
 }
@@ -78,7 +78,7 @@ main {
 }
 
 h1, h2 {
-  color: #7a3b3b;
+  color: #c1121f;
 }
 
 p {
