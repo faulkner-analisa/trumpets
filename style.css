@@ -1,6 +1,6 @@
 body {
   font-family: "Underdog", system-ui;
-  background-color: #3a5a40;    
+  background-color: #FFFFFF;    
   font-weight: 400;
   font-style: normal;
   margin: 0;
@@ -13,7 +13,8 @@ body {
 }
 
 .featured-comic {
-  width: 300px;
+  width: 700px;
+  length: 3000px
   max-width: 90%;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -26,7 +27,7 @@ body {
 
 
 nav {
-  background-color: #0a0b0b; /* muted maroon */
+  background-color: #0a0b0b; 
   padding: 1em;
   text-align: center;
 }
