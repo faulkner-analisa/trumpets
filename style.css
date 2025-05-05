@@ -7,6 +7,19 @@ body {
   padding: 0;
 }
 
+.button {
+  font-family: "Underdog",
+  text-decoration: none;
+  background-color: #0a0b0b;
+  color: #a8323e;
+  padding: 6px 6px 6px 6px;
+  border-top: 3px solid #CCCCCC;
+  border-right: 3px solid #333333;
+  border-bottom: 3px solid #333333;
+  border-left: 3px solid #CCCCCC;
+  border-radius: 50%
+}
+
 .favorite-comic {
   text-align: center;
   margin-top: 2em;
